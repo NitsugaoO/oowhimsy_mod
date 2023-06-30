@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 public class ModItemGroups  {
     public static ItemGroup OOWHIMSY = FabricItemGroup.builder(new Identifier(OoWhimsyMod.MOD_ID, "oowhimsy"))
             .displayName(Text.translatable("itemgroup.oowhimsy-mod.oowhimsy"))
-            .icon(()-> new ItemStack(ModItems.BAGASSE))
+            .icon(()-> new ItemStack(ModItems.SUGAR_CANE_BAGASSE))
             .build();
     public static void registerItemGroup() {
         OoWhimsyMod.LOGGER.debug("Registering mod item group for " + OoWhimsyMod.MOD_ID);
