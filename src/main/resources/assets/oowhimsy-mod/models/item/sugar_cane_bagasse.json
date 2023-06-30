@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "oowhimsy-mod:item/bagasse"
+    "layer0": "oowhimsy-mod:item/sugar_cane_bagasse"
   }
 }
