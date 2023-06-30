@@ -11,7 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item BAGASSE = registerItem("bagasse",
+    public static final Item BAGASSE = registerItem("sugar_cane_bagasse",
         new Item(new FabricItemSettings()),
             ModItemGroups.OOWHIMSY, ItemGroups.INGREDIENTS);
     public static Item registerItem(String name, Item item, ItemGroup... itemGroups) {
