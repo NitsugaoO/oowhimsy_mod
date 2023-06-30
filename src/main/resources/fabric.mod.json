@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "oowhimsy-mod",
+	"version": "${version}",
+	"name": "OoWhimsy Mod",
+	"description": "O_o",
+	"authors": [
+		"NitsugaoO"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/NitsugaoO/oowhimsy-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/oowhimsy-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          	"name.oowhimsy_mod.OoWhimsyMod"
+		],
+		"client": [
+			"name.oowhimsy_mod.OoWhimsyModClient"
+		],
+		"fabric-datagen": [
+			"name.oowhimsy_mod.OoWhimsyModDataGenerator"
+		]
+	},
+	"mixins": [
+		"oowhimsy-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
